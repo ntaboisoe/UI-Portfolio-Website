@@ -1,1 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photography Blog | John Watson - UI Portfolio</title>
 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="fas fa-user"></i> John Watson</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown">
+              Blog
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="webdev-blog.html">Web Dev Blog</a></li>
+              <li><a class="dropdown-item active" href="photography-blog.html">Photography Blog</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="my-portfolio.html">My Portfolio</a></li>
+              <li><a class="dropdown-item" href="featured-skills.html">My Featured Skills</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="hire-me.html">Hire Me</a></li>
+          <li class="nav-item d-flex align-items-center">
+            <a href="#" class="nav-link" id="search-btn"><i class="fas fa-search"></i></a>
+            <a href="#" class="nav-link" id="darkModeToggle"><i class="fas fa-moon"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section py-5 text-center bg-dark text-white">
+    <div class="container mt-5 pt-5" data-aos="fade-up">
+      <h1 class="display-4 fw-bold">Photography Blog</h1>
+      <p class="lead mt-3">Capturing the world through my lens – stories, techniques, and galleries.</p>
+    </div>
+  </section>
+
+  <!-- Blog Posts Section -->
+  <section class="blog-section py-5">
+    <div class="container">
+      <div class="row">
+
+        <!-- Photo Blog Post 1 -->
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card shadow-sm">
+            <img src="assets/images/photo-blog1.jpg" class="card-img-top" alt="Landscape Photography">
+            <div class="card-body">
+              <h5 class="card-title">Exploring the Beauty of Landscape Photography</h5>
+              <p class="card-text">Discover techniques to capture the breathtaking essence of nature’s beauty, from golden hours to wide-angle magic.</p>
+              <a href="#" class="btn btn-primary">View Gallery</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo Blog Post 2 -->
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card shadow-sm">
+            <img src="assets/images/photo-blog2.jpg" class="card-img-top" alt="Portrait Tips">
+            <div class="card-body">
+              <h5 class="card-title">Portrait Photography Tips for Beginners</h5>
+              <p class="card-text">Learn the art of capturing emotions and expressions, with easy beginner tips for stunning portrait shots.</p>
+              <a href="#" class="btn btn-primary">View Gallery</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <!-- Photo Blog Post 3 -->
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card shadow-sm">
+            <img src="assets/images/photo-blog3.jpg" class="card-img-top" alt="Street Photography">
+            <div class="card-body">
+              <h5 class="card-title">Secrets of Street Photography Revealed</h5>
+              <p class="card-text">Master the art of candid moments and storytelling through the bustling energy of urban life and culture.</p>
+              <a href="#" class="btn btn-primary">View Gallery</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo Blog Post 4 -->
+        <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="card shadow-sm">
+            <img src="assets/images/photo-blog4.jpg" class="card-img-top" alt="Night Photography">
+            <div class="card-body">
+              <h5 class="card-title">Night Photography: Shooting After Dark</h5>
+              <p class="card-text">Unlock the mysteries of low-light photography with tips for stunning night shots and starry skies.</p>
+              <a href="#" class="btn btn-primary">View Gallery</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section text-center">
+    <div class="container">
+      <div class="footer-logo">
+        <a href="index.html"><i class="fas fa-user"></i></a>
+      </div>
+      <div class="footer-contact mt-3">
+        <p><i class="fas fa-phone"></i> +254 0701 234 567</p>
+        <p><i class="fas fa-envelope"></i> example@example.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+      </div>
+      <div class="footer-social mt-3">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <div class="footer-bottom mt-3 d-flex justify-content-between">
+        <p>&copy; 2025 UI Portfolio. All Rights Reserved</p>
+        <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS Animation JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/script.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
