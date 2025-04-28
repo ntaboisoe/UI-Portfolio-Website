@@ -1,1 +1,78 @@
-.
+/* Default Light Theme Styles */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Special effect for "Web De" text */
+.bordered-text {
+  font-weight: 800;
+  font-size: 3rem;
+  color: black;
+  -webkit-text-stroke: 1px white;
+}
+
+/* Navbar and Footer Styling */
+header, footer {
+  background-color: #f8f9fa;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Buttons Custom */
+.btn-primary {
+  background-color: brown;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: navy;
+  color: #fff;
+  border: none;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode header, 
+body.dark-mode footer {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .nav-link {
+  color: #e0e0e0;
+}
+
+body.dark-mode .nav-link:hover {
+  color: #90caf9;
+}
+
+/* Footer Icons */
+footer i {
+  font-size: 1.2rem;
+}
+
+/* Center logo in footer */
+footer h2 {
+  font-weight: bold;
+}
+
+/* Back to top icon */
+footer a i {
+  color: #007bff;
+}
+
+/* Form Inputs (for later on Hire Me page) */
+form input, form button {
+  margin: 10px 0;
+}
